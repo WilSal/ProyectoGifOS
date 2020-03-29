@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <title>Mis Guifos</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="header__title">¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas:
+        12.765.803</div>
+    <header>
+        <div class="header__index">
+            <div class="header__guifos">
+                <div  class="img_arrow"><a href="index.html"><img src="svg/arrow.svg" alt="logo de flecha"></a></div>
+                <a href="index.html"><img class="icon_home" src="img/gifOF_logo.png" alt="logo de gif.OS"></a>
+            </div>
+            <div class="buttons_create_home">
+                <a href="createguifos.html" class="createGuifosHome"><div class="button buttonTheme"> Crear Guifos</div></a>
+                <div class="buttons_themes">
+                    <div class="button_themes_sel">
+                        <div class="button1 buttonTheme">Elegir tema</div>
+                        <div class="button2 buttonTheme"><img src="svg/dropdown.svg" alt="flacha abajo"></div>
+                    </div>
+                    <div class="button_themes_them">
+                        <div class="button_theme">Sailor Day</div>
+                        <div class="button_theme">Sailor Night</div>
+                    </div>
+                </div>
+                <a class="gifos" href="createguifos.html" accesskey="M"><u>M</u>is Gifos</a>
+            </div>
+        </div>
+    </header>
+    <section class="create_guifos">
+        <div class="guifos__title"><span>Crear Guifos</span></div>
+        <div class="guifos__body">
+            <img class="window_img" src="img/window.png" alt="logo de ventana">
+            <div class="guifos__content">
+                <div class="guifos_content__title">Aquí podrás crear tus propios guifos</div>
+                <div class="paragraph">
+                    <div>Crear tu <i><b>guifo</b></i> es muy fácil, graba cualquier imagen con tu cámara y obtén guifos personalizados. Los pasos para crear tu guifo son:</div>
+                    <div><b>1)</b> Dar permisos de acceso a la cámara (sólo por el tiempo de uso)</div>
+                    <div><b>2)</b> Capturar tu momento guifo</div>
+                    <div><b>3)</b> Revisar el momento</div>
+                    <div><b>4)</b> Listo para subir y compartir!</div>
+                    <div>¿Quieres comenzar a crear tu <i><b>guifo</b></i> ahora?</div>
+                </div>
+                <div class="buttons_create">
+                    <a href="index.html"><div class="button_cancel">Cancelar</div></a>
+                    <div id="enableRecord" class="button_start">Comenzar</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pre_record">
+            <div class="pre_record__title">
+                <span class="pre_record__capture">Un Chequeo Antes de Empezar</span>
+                <span class="pre_record__record">Capturando Tu Guifo</span>
+                <span class="pre_record__rep_up">Vista Previa</span>
+                <span class="pre_record__uploading">Subiendo Guifo</span>
+                <span class="pre_record__success">Guifo Subido Con Éxito</span>
+            </div>
+            <img src="svg/buttonX.svg" alt="Botón X" class="pre_record__buttonX">
+            <div class="pre_record_video">
+                <video></video>
+                <div class="up_loading">
+                    <img src="img/globe_img.png" alt="imagen mapa mundi">
+                    <div class="up_loading__title"><span>Estamos subiendo tu guifo…</span></div>
+                    <div class="loading_up">
+                        <div class="block"></div>
+                    </div>
+                    <div class="up_loading__description">Tiempo restante: <span class="years38">38 años</span> algunos minutos</div>
+                </div>
+            </div>
+            <div class="buttons_video">
+                <div class="timerVideo">
+                    <div class="timer">00:00:00:00</div>
+                    <div class="play_video">
+                        <div class="forward"><img src="svg/forward.svg" alt=""></div>
+                        <div class="loading">
+                            <div class="block"></div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+
+                <div class="button_capture">
+                    <div id="startRecord1" class="capture__button2"><img class="camera" src="svg/camera.svg" alt="flacha abajo"></div>
+                    <div id="startRecord2" class="capture__button1">Capturar</div>
+                </div>
+
+                <div class="buttonsStopRecord">
+                    <div class="stop1"><img src="svg/recording.svg" alt="icono de parar grabación"></div>
+                    <div class="stop2">Listo</div>
+                </div>
+
+                <div class="buttons_rep_up">
+                    <div class="button_rep">Repetir Captura</div>
+                    <div class="button_up">Subir Guifo</div>
+                </div>
+
+                <div class="button_canc_uploading">Cancelar</div>
+            </div>
+    </section>
+    <section class="success">
+        <div class="success__title">
+            <span class="pre_record__success">Guifo Subido Con Éxito</span>
+        </div>
+        <img src="svg/buttonX.svg" alt="Botón X" class="success__buttonX">
+        <div class="success__content">
+            <div class="video_demo">                
+            </div>
+            <div class="content__right">
+                <div class="right__title">Guifo creado con éxito</div>
+                <div class="right__buttons">
+                    <div class="buttons__copy">Copiar Enlace Guifo</div>
+                    <div class="buttons__download">Descargar Guifo</div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons_ready">
+            <button class="button_ready" onclick="window.location='index.html'">Listo</button>
+        </div>
+    </section>
+
+    <section class="my_guifos">
+        <div class="my_guifos__title">Mis guifos</div>
+        <div id="my_guifos__img">
+        </div>
+    </section>
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src="javascript/javascript.js" type="text/javascript"></script>
+</body>
+</html>

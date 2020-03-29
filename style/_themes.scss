@@ -1,0 +1,351 @@
+body {
+    background-color: #FFF4FD;
+    transition: .3s ease all;
+    &.Night {
+        background-color: #110038;
+    }
+}
+
+
+.header__title {
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    box-shadow: 0 1px 0 0 #110038;
+
+    transition: .3s ease all;
+    body.Night & {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    }
+}
+
+.button,
+.button1,
+.capture__button1,
+.button_cancel,
+.button_rep,
+.buttons__copy,
+.buttons__download,
+.button_canc_uploading,
+.button_start,
+.button_up,
+.button_ready,
+a {
+    cursor: pointer;
+    color: #110038;
+    box-sizing: border-box;
+    body.Night & {
+        color: #FFFFFF;
+    }
+}
+
+.title_search,
+.suggestion__title_img,
+.trends__title_img,
+.guifos__title,
+.pre_record__title,
+.success__title {
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+
+    transition: .3s ease all;
+    body.Night & {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    }
+}
+
+.search,
+.create_guifos,
+.pre_record,
+.success,
+.trends__img,
+.search_suggestion,
+.suggestion__img {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+
+    transition: .3s ease all;
+    body.Night & {
+        background: #B4B4B4;
+        box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    }
+}
+
+.button_search {
+    background: #E6E6E6;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+
+    transition: .3s ease all;
+    body.Night & {
+        background: #B4B4B4;
+        box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    }
+}
+
+.button_search {
+    &:active {
+        background: #E6BBE2;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    }
+    
+    transition: .3s ease all;
+    body.Night & {
+            &:active {
+                background: #EE3EFE;
+                border: 1px solid #110038;
+                box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;        }
+    }
+}
+
+.suggestion__title,
+.trends__title,
+.my_guifos__title {
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+}
+
+.suggestion__buttonSeeMore {
+    background: #4180F6;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+    color: #FFFFFF;
+
+    body.Night & {
+        background: #2E32FB;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+    }
+
+    &:hover{
+        background: #3A72DB;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+
+        body.Night & {
+            background: #2629CC;
+            border: 1px solid #4C2F99;
+            box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+        }
+    }
+}
+
+.trends__img {
+    .img {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 14px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        font-weight: bold;
+    }
+}
+
+.button_themes_them {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    transition: .3s ease all;
+    body.Night & {
+        background: #B4B4B4;
+        box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    }
+}
+
+.button2,
+.capture__button2,
+.capture__button1 {
+    cursor: pointer;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+
+    transition: .3s ease all;
+    body.Night & {
+        background: #EE3EFE;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    }
+}
+
+.button1,
+.button_theme,
+.button,
+.button_start,
+.button_ready {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+
+    transition: .3s ease all;
+    body.Night & {
+        background: #CCCCCC;
+        border: 1px solid #808080;
+        box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+        &:hover {
+            background: #2E32FB;
+            border: 1px solid rgba(51,53,143,0.20);
+            box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+        }
+    }
+}
+
+.button_up,
+.button_rep {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+
+    transition: .3s ease all;
+    body.Night & {
+        background: #110038;
+        border: 1px solid #B4B4B4;
+        box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+        &:hover {
+            border: 1px solid #FFFFFF;
+        }
+    }
+}
+
+
+.button_cancel,
+.button_canc_uploading,
+.buttons__copy,
+.buttons__download {
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+
+    body.Night & {
+        background: #110038;
+        border: 1px solid #B4B4B4;
+        box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+    }
+}
+
+.button_theme:hover {
+    background: #FFF4FD;
+    border: 1px solid #CCA6C9;
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.gifos {
+    &:active {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 16px;
+        color: #535353;
+        letter-spacing: 0;
+        line-height: 18px;
+    }
+    &:hover {
+        border: 1px solid #110038;
+    }
+
+    transition: .3s ease all;
+    body.Night & {
+        color: #FFFFFF;
+        &:hover {
+            border: 1px solid #FFFFFF;
+        }
+    }
+}
+
+.buttonTheme {    
+    &:hover, &:active {
+    background: #E6BBE2;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    }
+    transition: .3s ease all;
+    body.Night & {
+        background: #EE3EFE;
+        &:hover, &:active {
+            background: #CE36DB;
+        }
+    }
+}
+
+.buttonSearch_inactive {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    color: #B4B4B4;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.search_suggestion {
+    width: 1200px;
+    height: 160px;
+}
+
+.search__options {
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    color: #110038;
+}   
+.search__options {
+    &:hover {
+        background: #DBDBDB;
+        border: 1px solid #808080;
+        box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    }
+}
+
+.history__item {
+    color: #FFFFFF;
+    background: #4180F6;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.guifos_content__title,
+.timer,
+.up_loading__title,
+.right__title {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    font-weight: bold;    
+}
+
+.guifos__content div {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.pre_record_video {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.forward {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    body.Night & {
+        background: #B4B4B4;
+        border: 1px solid #979797;
+        box-shadow: inset 2px 2px 0 0 #E6E6E6, inset -2px -2px 0 0 #000000;
+    }
+}
+
+.loading,
+.loading_up {
+    background: #B4B4B4;
+    box-shadow: inset 2px 2px 0 0 #FFFCFC, inset -2px -2px 0 0 #000000;
+}
+
+.block {
+    background: #F7C9F3;
+
+    body.Night & {
+        background: #EE3EFE;
+    }
+}
